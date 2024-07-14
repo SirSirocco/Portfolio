@@ -25,8 +25,8 @@ struct compactadora {
 
 ## FUNÇÕES IMPLEMENTADAS
 
-* compacta(FILE *arqTexto, FILE *arqBin, struct compactadora *v): Compacta o texto lido de arqTexto usando a tabela fornecida em forma de vetor e grava o resultado binário em arqBin.
-* descompacta(FILE *arqBin, FILE *arqTexto, struct compactadora *v): Lê o binário de arqBin e reconstrói o texto original em arqTexto usando a tabela fornecida.
+* `compacta(FILE *arqTexto, FILE *arqBin, struct compactadora *v)`: Compacta o texto lido de arqTexto usando a tabela fornecida em forma de vetor e grava o resultado binário em arqBin.
+* `descompacta(FILE *arqBin, FILE *arqTexto, struct compactadora *v)`: Lê o binário de arqBin e reconstrói o texto original em arqTexto usando a tabela fornecida.
 
 ## TESTES IMPLEMENTADOS
 
