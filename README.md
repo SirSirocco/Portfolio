@@ -1,11 +1,5 @@
-# Portfolio
+# Portfólio
 
-## Author's info
-
-<<<<<<< HEAD
-Author: Pedro Barizon (aka SirSirocco)\n
-=======
-Author: Pedro Barizon (aka SirSirocco)\
->>>>>>> 10f53bd281eefaf98e4c689c573b6b9de4666bdc
+## Informações do Autor
+Autor: Pedro Barizon (aka SirSirocco)\n
 E-mail: pedro.a.barizon@gmail.com
-
