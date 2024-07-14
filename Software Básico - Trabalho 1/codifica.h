@@ -14,7 +14,10 @@ void descompacta(FILE *arqBin, FILE *arqTexto, struct compactadora *v);
 
 #endif
 
-/* INCLUDES */
 // Esta parte foi separada para diferencia-la da secao acima, que ja tinha sido fornecida no enunciado do trabalho
 
+/* INCLUDES */
 #include <stdlib.h>
+
+/* FUNCOES */
+void fdump(FILE* arqBin);
