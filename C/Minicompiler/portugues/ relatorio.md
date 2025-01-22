@@ -1,7 +1,7 @@
 **Integrantes:**
 
-* Pedro de Almeida Barizon - Matricula: 2211350 - Turma: 3WA
-* Guilherme Riechert Senko - Matricula: 2011478 - Turma: 3WA
+- Pedro de Almeida Barizon - Matricula: 2211350 - Turma: 3WA
+- Guilherme Riechert Senko - Matricula: 2011478 - Turma: 3WA
 
 **Nota:** 9.8
 
@@ -19,10 +19,10 @@ código de máquina x86-64 e armazená-lo em uma área de memória fornecida com
 A linguagem LinB é uma linguagem de programação simples que suporta operações aritméticas básicas, atribuições,
 desvios condicionais e retorno de função. As instruções da linguagem são:
 
-* Atribuição: 		`varp '<=' expr`
-* Operação aritmética: 	`varpc op varpc`
-* Desvio: 		`'if' varp num`
-* Retorno: 		`'ret'`
+- Atribuição: `varp '<=' expr`
+- Operação aritmética: `varpc op varpc`
+- Desvio: `'if' varp num`
+- Retorno: `'ret'`
 
 Variáveis locais são representadas como `v1`, `v2` etc., e parâmetros como `p1`, `p2`. Constantes inteiras são prefixadas com `$`.
 
@@ -51,10 +51,11 @@ A implementação foi feita seguindo os passos abaixo:
 
 1. **Prólogo e Epílogo:** Implementação do prólogo e epílogo padrão para preparação (construção da pilha) e finalização (`ret`) da função.
 2. **Atribuições:** Implementação das atribuições de variáveis locais e parâmetros.
-3. **Operações Aritméticas:** Tradução das operações aritméticas básicas (+, -, *).
+3. **Operações Aritméticas:** Tradução das operações aritméticas básicas (+, -, \*).
 4. **Desvios Condicionais:** Implementação da instrução `if` para desvios baseados em condições.
 
 ### Exemplo de Teste
+
 ```
 Função LinB:
 v1 <= p1 + $1
@@ -76,11 +77,13 @@ ret
 
 Todos os testes de funções LinB realizados obtiveram êxito, incluindo-se operações aritméticas simples, desvios
 condicionais e funções recursivas. Abaixo, seguem exemplos de funções traduzidas e compiladas com sucesso:
+
 ```
 1. Soma Simples:
    v1 <= p1 + $1
    ret
 ```
+
 ```
 2. Fatorial:
    v1 <= $0 + $1          	// 1: f = 1
@@ -91,6 +94,7 @@ condicionais e funções recursivas. Abaixo, seguem exemplos de funções traduz
    if p1 4               	// 6: if (n != 0) desvia para linha 4
    ret                   	// 7: retorna f
 ```
+
 ```
 3. Diferença de Quadrados:
    v1 <= p1 + p2          	// 1: i = x + y
@@ -98,6 +102,7 @@ condicionais e funções recursivas. Abaixo, seguem exemplos de funções traduz
    v1 <= v1 * p1          	// 3: i = i * x
    ret                   	// 4: retorna i
 ```
+
 ```
 4. Soma de Quadrados de 1 a x:
    v1 <= $0 + $0          	// 1: sum = 0

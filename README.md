@@ -11,7 +11,7 @@ The folders in this portfolio contain some of my best projects, developed during
 
 ## Informações do Autor
 
-- **Autor:** Pedro Barizon (aka SirSirocco)
+- **Autor:** Pedro Barizon (SirSirocco)
 - **E-mail:** pedro.a.barizon@gmail.com
 
 As pastas deste portfólio contêm alguns dos meus melhores projetos, desenvolvidos ao longo das disciplinas cursadas na Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio).
