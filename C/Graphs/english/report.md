@@ -8,7 +8,7 @@ The program consists of five modules:
 
 - `kruskal_main.c`, responsible for executing the program that implements Kruskal's algorithm;
 - `grafos.c`, responsible for graph manipulation;
-- `grafos.h`, responsible for declaring the functions from `grafos.c` and the structures `node`, `graph`, and `edge`;
+- `grafos.h`, responsible for declaring the functions from `grafos.c` and the structures `node`, `grafo` (graph), and `aresta` (edge);
 - `kruskal.c`, responsible for Kruskal's algorithm;
 - `kruskal.h`, responsible for declaring the functions from `kruskal.c` and the `noConj` structure.
 
@@ -18,7 +18,7 @@ The program consists of five modules:
 
 - `dijkstra_main.c`, responsible for executing the program that implements Dijkstra's algorithm;
 - `grafos.c`, responsible for graph manipulation;
-- `grafos.h`, responsible for declaring the functions from `grafos.c` and the structures `node`, `graph`, and `edge`;
+- `grafos.h`, responsible for declaring the functions from `grafos.c` and the structures `node`, `grafo` (graph), and `aresta` (edge);
 - `dijkstra.c`, responsible for Dijkstra's algorithm;
 - `dijkstra.h`, responsible for declaring the functions from `dijkstra.c`.
 
